@@ -49,7 +49,7 @@ def get_trade(trade_id: int):
 def add_trade(data: dict):
     for trade in fake_trades:
         trade[list(data.keys())[0]] = data[list(data.keys())[0]]
-    return fake_trades
+
 
 
 
